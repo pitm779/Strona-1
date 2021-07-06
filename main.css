@@ -1,0 +1,130 @@
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+aside {
+    width: 24%;
+    float: left;
+    min-height: 1000px;
+    background-color: azure;
+    /*test*/
+    border-right: 2px solid black;
+
+}
+
+article {
+    width: 75%;
+    float: left;
+    min-height: 1000px;
+    background-color: burlywood;
+    /*test*/
+}
+
+
+header img {
+    width: 30%;
+    float: left;
+    position: relative;
+    top: 22px;
+}
+
+nav {
+    width: 70%;
+    float: left;
+    height: 100px;
+}
+
+header {
+    height: 100px;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+    background-color: beige;
+    /*test*/
+}
+
+
+.menu {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    margin: 0px 1px 1px 0px;
+    font-family: sans-serif;
+}
+
+.ul_menu {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    top: 28px;
+
+}
+
+.menu:hover {
+    color: aqua;
+}
+
+.list {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.ul_list {
+    list-style: none;
+    padding-left: 10%;
+
+}
+
+footer {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    border-top: 2px solid black;
+}
+
+
+.form {
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+
+.form_ {
+    background-color: white;
+    padding: 15px;
+}
+
+form {
+    border: 10px solid #f1f1f1;
+    margin: 5px 20px 0 20px;
+}
+
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+}
+
+h1{
+    text-align: center;
+}
